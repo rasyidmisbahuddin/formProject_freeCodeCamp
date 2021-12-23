@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Poppins&display=swap");
+
+body {
+  background-image: linear-gradient(90deg, rgba(243,200,146,0.47692580450148814) 0%, rgba(255,241,189,0.49933476808692223) 48%, rgba(163,218,141,0.49933476808692223) 100%), url(background.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#judul > * {
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+#survey-form {
+  background-color: rgba(0, 0, 0, 0.418);
+  border-radius: 10px;
+  padding: 50px;
+  color: white;
+  max-width: 750px;
+  margin: auto;
+  backdrop-filter: blur(1rem);
+  margin-bottom: 100px;
+}
+
+#survey-form > * {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-group {
+  justify-items: center;
+}
+
+input {
+  margin-bottom: 25px;
+}
